@@ -15,8 +15,8 @@ const invitati = [
         puoPartecipare = true;
     }
 }
-if (invitato) {
-    alert("entra");
+if (partecipa) {
+    alert("Benvenuto alla festa!!!");
 } else {
-    alert("non entra.");
+    alert("Mi dispiace, non sei nella lista degli invitati.");
 }
